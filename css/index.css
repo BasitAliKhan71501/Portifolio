@@ -1,0 +1,1232 @@
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-x: hidden !important;
+}
+
+html {
+    overflow-x: hidden !important;
+}
+
+.bg1 {
+    background: linear-gradient( rgb(0, 0, 0, 0.4), rgb(0, 0, 0, 0.4), rgb(0, 0, 0, 0.4)), url(../assests/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar-brand {
+    font-size: 25px !important;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.navbar-brand:hover {
+    color: #dc3545!important;
+    transition: ease-in-out 0.3s;
+}
+
+.navbar-brand:hover span {
+    color: white!important;
+    transition: ease-in-out 0.3s;
+}
+
+.nav-item a {
+    font-size: 19px !important;
+    font-family: 'Poppins', sans-serif !important;
+    margin-left: 0.5rem !important;
+    margin-right: 0.5rem !important;
+    color: white !important;
+}
+
+.nav-item {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.nav-item a {
+    position: relative;
+    transition: all .45s ease-Out;
+}
+
+.underline {
+    width: 100%;
+    height: 2.5px;
+    margin-top: 15px;
+    align-self: flex-end;
+    left: -200px;
+    background: #dc3545;
+    position: absolute;
+    transition: all .3s ease-Out;
+    bottom: 0;
+}
+
+.nav-item:hover .nav-link {
+    color: #dc3545 !important;
+}
+
+.nav-item:hover .underline {
+    left: 0;
+}
+
+@media (max-width:992px) {
+    .underline {
+        display: none !important;
+    }
+}
+
+.btn1 {
+    position: relative;
+    transform: translate(0%, 0%);
+    display: block;
+    color: white;
+    border: 1px solid #dc3545!important;
+    color: #dc3545!important;
+    text-decoration: none;
+    border: 2px solid #dc3545;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 1s all ease;
+}
+
+.btn1:hover a {
+    color: white !important;
+    transition: all 0.6s ease;
+}
+
+.btn1::before {
+    background: #dc3545;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    transition: all 0.6s ease;
+}
+
+.btn1::before {
+    width: 0%;
+    height: 100%;
+}
+
+.btn1:hover::before {
+    width: 100%;
+}
+
+.btn1:hover span {
+    color: white !important;
+}
+
+.btnContact {
+    position: relative;
+    transform: translate(0%, 0%);
+    display: block;
+    background-color: transparent;
+    color: #08fdd8;
+    border: 2px solid #08fdd8;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 1s all ease;
+}
+
+.btnContact::before {
+    background: #08fdd8;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    transition: all 0.2s ease;
+}
+
+.btnContact::before {
+    width: 0%;
+    height: 100%;
+}
+
+.btnContact:hover::before {
+    width: 100%;
+}
+
+.btnContact:hover span {
+    color: rgb(39, 35, 35) !important;
+}
+
+.jelly {
+    z-index: 999999 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jellyy {
+    margin-left: 1rem !important;
+}
+
+.jelly h1 {
+    font-size: 70px !important;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.jelly h1 span {
+    cursor: context-menu !important;
+}
+
+.workh1 {
+    font-size: 50px !important;
+    color: #08fdd8 !important;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.jelly h1 .same:hover {
+    animation: jell 0.6s 1;
+}
+
+.jellyy h1 .same:hover {
+    animation: jell 0.6s 1;
+    color: #08fdd8 !important;
+}
+
+.topP {
+    font-size: 20px !important;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.skillContainer {
+    background-color: #1d1d1d !important;
+    color: white !important;
+    padding: 5rem !important;
+}
+
+@media (max-width:995px) {
+    .jelly h1 {
+        font-size: 60px !important;
+    }
+    .about h1 {
+        font-size: 60px !important;
+    }
+    .jelly .topP {
+        font-size: 18px !important;
+    }
+    .skillContainer {
+        padding: 3rem !important;
+    }
+    .skills .carda h5 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px !important;
+    }
+    .skills .skillsh1 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 48px !important;
+        color: #08fdd8 !important;
+    }
+    .skillContainer .skillsText p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px !important;
+    }
+}
+
+@media (max-width:600px) {
+    .jelly h1 {
+        font-size: 45px !important;
+    }
+    .about h1 {
+        font-size: 45px !important;
+    }
+    .jelly .topP {
+        font-size: 17px !important;
+    }
+    .skillContainer .skills h1 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 40px !important;
+        color: #08fdd8 !important;
+    }
+    .skillContainer .skillsText p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 17px !important;
+    }
+    .skillContainer {
+        padding: 2rem !important;
+    }
+}
+
+@media (max-width:450px) {
+    .jelly h1 {
+        font-size: 33px !important;
+    }
+    .about h1 {
+        font-size: 33px !important;
+    }
+    .jelly .topP {
+        font-size: 16px !important;
+    }
+    .skillContainer {
+        padding: 1rem !important;
+    }
+    .skills h1 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 35px !important;
+        color: #08fdd8 !important;
+    }
+    .skillsText p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px !important;
+    }
+}
+
+@media (max-width:350px) {
+    .skillContainer .skills h1 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px !important;
+        color: red !important;
+    }
+}
+
+@media (max-width:305px) {
+    .jelly h1 {
+        font-size: 23px !important;
+    }
+    .jelly .topP {
+        font-size: 15px !important;
+    }
+    .skillContainer .skills h1 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 10px !important;
+    }
+    .jelly {
+        padding-left: 1rem !important;
+    }
+}
+
+@keyframes jell {
+    25% {
+        color: #dc3545;
+        transform: scale(1.5, 1.1);
+    }
+    50% {
+        color: #dc3545;
+        transform: scale(1.3, 1);
+    }
+    50% {
+        color: #dc3545;
+        transform: scale(1.1, 0.8);
+    }
+}
+
+.button {
+    float: left;
+    width: 60px;
+    font-family: 'Poppins', sans-serif;
+    height: 60px;
+    cursor: pointer;
+    background: #2b2b2b;
+    overflow: hidden;
+    border-radius: 50px;
+    transition: all 0.6s ease-in-out !important;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.button span {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+    color: rgb(228, 224, 224);
+    transition: all 0.6s ease-in-out;
+}
+
+.button:hover {
+    width: 200px;
+}
+
+.button:nth-child(1):hover .icon {
+    background: #08fdd8;
+}
+
+.button:nth-child(2):hover .icon {
+    background: #08fdd8;
+}
+
+.button:nth-child(3):hover .icon {
+    background: #08fdd8;
+}
+
+.button:nth-child(4):hover .icon {
+    background: #08fdd8;
+}
+
+.button:nth-child(5):hover .icon {
+    background: #08fdd8;
+}
+
+.button:nth-child(6):hover .icon {
+    background: #08fdd8;
+}
+
+.button .icon {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border-radius: 50px;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+}
+
+.button .icon i {
+    font-size: 25px;
+    line-height: 60px;
+    transition: all 0.3s ease-in-out;
+    color: #0ae9c7;
+    background-color: transparent !important;
+}
+
+.button:hover i {
+    color: #353b48;
+}
+
+.send {
+    width: 90% !important;
+}
+
+.roww {
+    width: 80%;
+    margin: 0 auto;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+.smallscreen {
+    display: none !important;
+    font-size: 90px !important;
+    text-align: center;
+}
+
+.smallscreen h1 {
+    font-size: 50px !important;
+}
+
+@media (max-width:675px) {
+    .anim {
+        display: none !important;
+    }
+    #text,
+    #console {
+        display: none !important;
+    }
+    .smallscreen {
+        display: block !important;
+        color: white;
+    }
+}
+
+.aniM {
+    background: #111;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.console-container {
+    font-family: 'Poppins', sans-serif;
+    font-size: 4em;
+    text-align: center;
+    height: 200px;
+    width: 600px;
+    display: block;
+    position: absolute;
+    color: white;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+/* .console-underscore {
+    display: inline-block;
+    position: relative;
+    top: -0.14em;
+    left: 10px;
+} */
+
+.skills .bar {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    height: 5px;
+    background: #353b48;
+    display: block;
+    border: 1px solid rgba(0, 0, 0, 0.3) !important;
+    border-radius: 3px;
+    overflow: hidden;
+    /* box-shadow: 0 0 10px #2187e7b3; */
+}
+
+.skills .bar span {
+    height: 5px;
+    /* float: left; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.skills .bar .htmlSpan {
+    width: 90%;
+    animation: html linear ease-in-out 1s;
+    background-color: #08fdd8 !important;
+}
+
+@keyframes html {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 90%;
+    }
+}
+
+.skills .bar .cssSpan {
+    width: 90%;
+    animation: css linear ease-in-out 1s;
+    background-color: #ff2253;
+}
+
+@keyframes css {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 90%;
+    }
+}
+
+.skills .bar .bootstrapSpan {
+    width: 95%;
+    animation: bootstrap linear ease-in-out 1s;
+    background-color: #d26cd5;
+}
+
+@keyframes bootstrap {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 95%;
+    }
+}
+
+.skills .bar .javascriptSpan {
+    width: 50%;
+    animation: javascript linear ease-in-out 1s;
+    background-color: #08fdd8;
+}
+
+@keyframes javascript {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 50%;
+    }
+}
+
+.skills .bar .reactSpan {
+    width: 30%;
+    animation: react linear ease-in-out 1s;
+    background-color: #ff2253;
+}
+
+@keyframes react {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 30%;
+    }
+}
+
+.skills .carda {
+    background-color: #2a2a2a;
+    box-shadow: rgba(252, 250, 251, 0.4) 5px 5px;
+}
+
+.skills .carda h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+}
+
+.skills .carda p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+.skills .skillsh1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 55px !important;
+    color: #08fdd8 !important;
+}
+
+@media (max-width:500px) {
+    #skills {
+        padding: 2rem !important;
+    }
+    .skills .skillsh1 {
+        font-size: 40px !important;
+    }
+    .skills .skillsText {
+        font-size: 17px !important;
+    }
+    .skills .carda h5 {
+        font-size: 19px;
+    }
+    .skills .carda p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:330px) {
+    #skills {
+        padding: 0.5rem !important;
+    }
+    .skills .skillsh1 {
+        font-size: 30px !important;
+    }
+    .skills .skillsText {
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px !important;
+    }
+    .skills .carda h5 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+    }
+    .skills .carda p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 13px;
+    }
+}
+
+.skills .skillsText {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.btns {
+    background-color: #08fdd8 !important;
+}
+
+.btns:hover {
+    background-color: #0cd1b4 !important;
+}
+
+
+/* a */
+
+.workCarda {
+    height: 20rem !important;
+    background: url(../assests/html\ css\ bootstrap\ \(1\).jpg);
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+.workCarda .btns {
+    visibility: hidden !important;
+}
+
+.workCarda:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assests/html\ css\ bootstrap\ \(1\).jpg);
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 22rem !important;
+    transition: 0.2s ease-in-out !important;
+}
+
+.workCarda:hover .btns {
+    visibility: visible !important;
+}
+
+
+/* b */
+
+.workCardb {
+    height: 20rem !important;
+    background: url(../assests/html\ css\ bootstrap\ \(2\).jpg) !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+.workCardb .btns {
+    visibility: hidden !important;
+}
+
+.workCardb:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assests/html\ css\ bootstrap\ \(2\).jpg) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 22rem !important;
+    transition: 0.2s ease-in-out !important;
+}
+
+.workCardb:hover .btns {
+    visibility: visible !important;
+}
+
+
+/* c */
+
+.workCardc {
+    height: 20rem !important;
+    background: url(../assests/html\ css\ bootstrap\ \(3\).jpg) !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+.workCardc .btns {
+    visibility: hidden !important;
+}
+
+.workCardc:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assests/html\ css\ bootstrap\ \(3\).jpg) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 22rem !important;
+    transition: 0.2s ease-in-out !important;
+}
+
+.workCardc:hover .btns {
+    visibility: visible !important;
+}
+
+
+/* d */
+
+.workCardd {
+    height: 20rem !important;
+    background: url(../assests/html\ css\ bootstrap\ \(6\).jpg) !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+.workCardd .btns {
+    visibility: hidden !important;
+}
+
+.workCardd:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assests/html\ css\ bootstrap\ \(6\).jpg) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 22rem !important;
+    transition: 0.2s ease-in-out !important;
+}
+
+.workCardd:hover .btns {
+    visibility: visible !important;
+}
+
+
+/* e */
+
+.workCarde {
+    height: 20rem !important;
+    background: url(../assests/e.jpg) !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+.workCarde .btns {
+    visibility: hidden !important;
+}
+
+.workCarde:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assests/e.jpg) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 22rem !important;
+    transition: 0.2s ease-in-out !important;
+}
+
+.workCarde:hover .btns {
+    visibility: visible !important;
+}
+
+
+/* f */
+
+.workCardf {
+    height: 20rem !important;
+    background: url(../assests/html\ css\ bootstrap\ \(2\).jpg) !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+.workCardf .btns {
+    visibility: hidden !important;
+}
+
+.workCardf:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assests/html\ css\ bootstrap\ \(2\).jpg) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 22rem !important;
+    transition: 0.2s ease-in-out !important;
+}
+
+.workCardf:hover .btns {
+    visibility: visible !important;
+}
+
+
+/* g */
+
+.workCardg {
+    height: 20rem !important;
+    background: url(../assests/g.jpg) !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+.workCardg .btns {
+    visibility: hidden !important;
+}
+
+.workCardg:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assests/g.jpg) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 22rem !important;
+    transition: 0.2s ease-in-out !important;
+}
+
+.workCardg:hover .btns {
+    visibility: visible !important;
+}
+
+
+/* h */
+
+.workCardh {
+    height: 20rem !important;
+    background: url(../assests/h.jpg) !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+.workCardh .btns {
+    visibility: hidden !important;
+}
+
+.workCardh:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assests/h.jpg) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 22rem !important;
+    transition: 0.2s ease-in-out !important;
+}
+
+.workCardh:hover .btns {
+    visibility: visible !important;
+}
+
+
+/* i */
+
+.workCardi {
+    height: 20rem !important;
+    background: url(../assests/i.jpg) !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+.workCardi .btns {
+    visibility: hidden !important;
+}
+
+.workCardi:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assests/i.jpg) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: 150% !important;
+    /* height: 22rem !important; */
+    transition: background-size 0.5s ease-in-out !important;
+}
+
+.workCardi:hover .btns {
+    visibility: visible !important;
+}
+
+.abouttext h1 {
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 70px !important;
+    color: #08fdd8 !important;
+}
+
+.abouttext .aboutText {
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 20px !important;
+}
+
+.abouttext a {
+    text-decoration: none !important;
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 20px !important;
+}
+
+@media (max-width:990px) {
+    .abouttext h1 {
+        font-family: 'Roboto', sans-serif !important;
+        font-size: 60px !important;
+        color: #08fdd8 !important;
+    }
+    .abouttext .aboutText {
+        font-family: 'Roboto', sans-serif !important;
+        font-size: 19px !important;
+    }
+    .abouttext a {
+        text-decoration: none !important;
+        font-family: 'Roboto', sans-serif !important;
+        font-size: 19px !important;
+    }
+}
+
+@media (max-width:600px) {
+    .abouttext h1 {
+        font-family: 'Roboto', sans-serif !important;
+        font-size: 45px !important;
+        color: #08fdd8 !important;
+    }
+    .abouttext .aboutText {
+        font-family: 'Roboto', sans-serif !important;
+        font-size: 18px !important;
+    }
+    .abouttext a {
+        text-decoration: none !important;
+        font-family: 'Roboto', sans-serif !important;
+        font-size: 18px !important;
+    }
+}
+
+@media (max-width:330px) {
+    .about {
+        padding: 0.5rem !important;
+    }
+    .abouttext h1 {
+        font-family: 'Roboto', sans-serif !important;
+        font-size: 35px !important;
+        color: #08fdd8 !important;
+    }
+    .abouttext .aboutText {
+        padding: 0 !important;
+        font-size: 14px !important;
+    }
+    .abouttext a {
+        text-decoration: none !important;
+        padding: 0 !important;
+        font-size: 14px !important;
+    }
+}
+
+.aboutImg .circular {
+    width: 30rem !important;
+    height: 30rem !important;
+    background-image: url(../assests/FB_IMG_15796298858794484.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50% !important;
+}
+
+input:focus {
+    border-bottom: 2px solid #ff2253 !important;
+    transition: 0.5s ease-in-out;
+}
+
+textarea:focus {
+    border-bottom: 2px solid #ff2253 !important;
+    transition: 0.5s ease-in-out;
+}
+
+@media (max-width:992px) {
+    .aboutImg .circular {
+        margin-top: 1rem !important;
+    }
+}
+
+@media (max-width:1000px) {
+    .about {
+        padding: 0 !important;
+    }
+    .aboutImg .circular {
+        width: 20rem !important;
+        height: 20rem !important;
+        margin-left: 2rem !important;
+    }
+}
+
+@media (max-width:360px) {
+    .aboutImg .circular {
+        width: 15rem !important;
+        height: 15rem !important;
+        margin-left: 0rem !important;
+    }
+}
+
+.cardSame {
+    box-shadow: -10px -10px 30px 4px rgba(119, 116, 116, 0.1), 10px 10px 30px 4px rgba(146, 149, 167, 0.15) !important;
+}
+
+.sameskills {
+    line-height: 38px !important;
+    letter-spacing: 1.5px !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+
+/* Preloader */
+
+.ctn-preloader {
+    align-items: center;
+    cursor: none;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 999999 !important;
+}
+
+.ctn-preloader .animation-preloader {
+    position: absolute;
+    z-index: 100;
+}
+
+
+/* Spinner cargando */
+
+.ctn-preloader .animation-preloader .spinner {
+    animation: spinner 1s infinite linear;
+    border-radius: 50%;
+    border: 3px solid rgba(0, 0, 0, 0.2);
+    border-top-color: #000000;
+    /* No se identa por orden alfabetico para que no lo sobre-escriba */
+    height: 9em;
+    margin: 0 auto 3.5em auto;
+    width: 9em;
+}
+
+
+/* Texto cargando */
+
+.ctn-preloader .animation-preloader .txt-loading {
+    font: bold 5em 'Montserrat', sans-serif;
+    text-align: center;
+    user-select: none;
+}
+
+.ctn-preloader .animation-preloader .txt-loading .letters-loading:before {
+    animation: letters-loading 4s infinite;
+    color: #000000;
+    content: attr(data-text-preloader);
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    transform: rotateY(-90deg);
+}
+
+.ctn-preloader .animation-preloader .txt-loading .letters-loading {
+    color: rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.ctn-preloader .animation-preloader .txt-loading .letters-loading:nth-child(2):before {
+    animation-delay: 0.2s;
+}
+
+.ctn-preloader .animation-preloader .txt-loading .letters-loading:nth-child(3):before {
+    animation-delay: 0.4s;
+}
+
+.ctn-preloader .animation-preloader .txt-loading .letters-loading:nth-child(4):before {
+    animation-delay: 0.6s;
+}
+
+.ctn-preloader .animation-preloader .txt-loading .letters-loading:nth-child(5):before {
+    animation-delay: 0.8s;
+}
+
+.ctn-preloader .animation-preloader .txt-loading .letters-loading:nth-child(6):before {
+    animation-delay: 1s;
+}
+
+.ctn-preloader .animation-preloader .txt-loading .letters-loading:nth-child(7):before {
+    animation-delay: 1.2s;
+}
+
+.ctn-preloader .loader-section {
+    background-color: #ffffff;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    width: calc(50% + 1px);
+}
+
+.ctn-preloader .loader-section.section-left {
+    left: 0;
+}
+
+.ctn-preloader .loader-section.section-right {
+    right: 0;
+}
+
+
+/* Efecto de fade en la animación de cargando */
+
+.loaded .animation-preloader {
+    opacity: 0;
+    transition: 0.3s ease-out;
+}
+
+
+/* Efecto de cortina */
+
+.loaded .loader-section.section-left {
+    transform: translateX(-101%);
+    transition: 0.7s 0.3s all cubic-bezier(0.1, 0.1, 0.1, 1.000);
+}
+
+.loaded .loader-section.section-right {
+    transform: translateX(101%);
+    transition: 0.7s 0.3s all cubic-bezier(0.1, 0.1, 0.1, 1.000);
+}
+
+
+/* Animación del preloader */
+
+@keyframes spinner {
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+
+/* Animación de las letras cargando del preloader */
+
+@keyframes letters-loading {
+    0%,
+    75%,
+    100% {
+        opacity: 0;
+        transform: rotateY(-90deg);
+    }
+    25%,
+    50% {
+        opacity: 1;
+        transform: rotateY(0deg);
+    }
+}
+
+
+/* Tamaño de portatil hacia atras (portatil, tablet, celular) */
+
+@media screen and (max-width: 767px) {
+    /* Preloader */
+    /* Spinner cargando */
+    .ctn-preloader .animation-preloader .spinner {
+        height: 8em;
+        width: 8em;
+    }
+    /* Texto cargando */
+    .ctn-preloader .animation-preloader .txt-loading {
+        font: bold 3.5em 'Montserrat', sans-serif;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    /* Prelaoder */
+    /* Spinner cargando */
+    .ctn-preloader .animation-preloader .spinner {
+        height: 7em;
+        width: 7em;
+    }
+    /* Texto cargando */
+    .ctn-preloader .animation-preloader .txt-loading {
+        font: bold 2em 'Montserrat', sans-serif;
+    }
+}
+
+@media (max-width:992px) {
+    #preloader {
+        display: none !important;
+    }
+}
+
+.page {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page__inner {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.cursor {
+    position: fixed;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+}
+
+.cursor--small {
+    width: 5px;
+    height: 5px;
+    left: -2.5px;
+    top: -2.5px;
+    border-radius: 50%;
+    z-index: 11000;
+    background: #dc3545;
+}
+
+.cursor--canvas {
+    width: 100vw;
+    height: 100vh;
+    z-index: 12000;
+}
+
+.page,
+.page a {
+    cursor: none;
+}
+
+.footer h4:hover {
+    color: white !important;
+    word-spacing: -2px !important;
+    transition: ease-in-out 0.3s;
+}
